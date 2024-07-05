@@ -1,0 +1,99 @@
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .bg {
+            background-image: url('./WhatsApp\ Image\ 2024-06-23\ at\ 20.59.36_208cd892.jpg'); 
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .login-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* background: rgba(16, 4, 4, 0.8); */
+            opacity: 1;
+            padding: 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin: 0 0 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            opacity:0.5;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #e7aca4;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #ff6b5b;
+        }
+
+        .login-container .social-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .login-container .social-buttons button {
+            width: 48%;
+            padding: 10px;
+            background-color: #ffff;
+            border: none;
+            border-radius: 5px;
+            color: rgb(5, 1, 1);
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container .social-buttons button.twitter {
+            background-color: hsl(210, 17%, 95%); /* Twitter color */
+        }
+
+        .login-container .social-buttons button:hover {
+            opacity: 0.9;
+        }
+
+        .login-container .options {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .login-container .options a {
+            color: #ff8b7b;
+            text-decoration: none;
+        }
+
+        .login-container .options a:hover {
+            text-decoration: underline;
+        }
+  
